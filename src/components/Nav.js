@@ -17,13 +17,13 @@ export const Nav = () => {
     return(
         <NavWrapper>
             <Link to="/" >
-                <LogoImg src={data.logo.publicURL} alt="my logo" />
+                <img src={data.logo.publicURL} alt="my logo" />
             </Link>
         </NavWrapper>
     )
 }
 
-const LogoImg =styled.img`
-    height: 50px;
-    width: 50px;
-`
+// const LogoImg =styled.img`
+//     height: 50px;
+//     width: 50px;
+// `
