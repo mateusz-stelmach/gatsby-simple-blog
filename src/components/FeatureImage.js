@@ -9,10 +9,9 @@ export const FeatureImage = ({ fixed }) => {
             <StaticImage 
                 src="../images/hero.jpg" 
                 alt=" a hero image"
-                placeholder="blurred"
-                width= {2000}
-                height={1450}
+                placeholder="blurred"                
                 loading= "lazy"
+                
             />
         </FeatureImageWrapper>
     )
